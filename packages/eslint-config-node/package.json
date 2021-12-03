@@ -1,0 +1,30 @@
+{
+  "name": "@mhuffnagle/eslint-config-node",
+  "version": "1.0.0",
+  "description": "eslint config for a Node.js project",
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "Marc Huffnagle <marc@huffnagle.net>",
+  "homepage": "https://github.com/marchuffnagle/eslint-config/tree/main/packages/eslint-config-node#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marchuffnagle/eslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/marchuffnagle/eslint-config/issues"
+  },
+  "dependencies": {
+    "@mhuffnagle/eslint-config": "^1.0.0",
+    "eslint-plugin-node": "^11.1.0"
+  }
+}

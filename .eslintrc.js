@@ -1,6 +1,6 @@
 /** @type {import('eslint').Linter.Config} */
 const config = {
-  extends: './node.js',
+  extends: './packages/eslint-config-node',
 };
 
 module.exports = config;

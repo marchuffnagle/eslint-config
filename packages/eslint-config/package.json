@@ -1,0 +1,32 @@
+{
+  "name": "@mhuffnagle/eslint-config",
+  "version": "1.0.0",
+  "description": "eslint config for a basic JavaScript project",
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "Marc Huffnagle <marc@huffnagle.net>",
+  "homepage": "https://github.com/marchuffnagle/eslint-config/tree/main/packages/eslint-config#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marchuffnagle/eslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/marchuffnagle/eslint-config/issues"
+  },
+  "dependencies": {
+    "eslint": "^8.3.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-unicorn": "^39.0.0"
+  }
+}

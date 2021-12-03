@@ -1,7 +1,7 @@
 /** @type {import('eslint').Linter.Config} */
 const config = {
   extends: [
-    './javascript.js',
+    '@mhuffnagle',
     'plugin:node/recommended',
   ],
 };
