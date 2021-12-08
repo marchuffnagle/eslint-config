@@ -1,6 +1,6 @@
 {
   "name": "@mhuffnagle/eslint-config-node-ts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "eslint config for a TypeScript-based Node.js project",
   "keywords": [
     "eslint",
@@ -24,7 +24,7 @@
     "url": "https://github.com/marchuffnagle/eslint-config/issues"
   },
   "scripts": {
-    "release": "np"
+    "release": "np --no-release-draft"
   },
   "dependencies": {
     "@mhuffnagle/eslint-config-node": "^1.0.0",
