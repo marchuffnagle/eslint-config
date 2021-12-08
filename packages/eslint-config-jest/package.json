@@ -1,13 +1,14 @@
 {
-  "name": "@mhuffnagle/eslint-config",
+  "name": "@mhuffnagle/eslint-config-jest",
   "version": "1.0.0",
-  "description": "eslint config for a basic JavaScript project",
+  "description": "eslint config for a project using Jest",
   "keywords": [
     "eslint",
-    "eslintconfig"
+    "eslintconfig",
+    "jest"
   ],
   "author": "Marc Huffnagle <marc@huffnagle.net>",
-  "homepage": "https://github.com/marchuffnagle/eslint-config/tree/main/packages/eslint-config#readme",
+  "homepage": "https://github.com/marchuffnagle/eslint-config/tree/main/packages/eslint-config-jest#readme",
   "license": "MIT",
   "main": "index.js",
   "files": [
@@ -27,17 +28,15 @@
     "release": "np"
   },
   "dependencies": {
-    "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-plugin-eslint-comments": "^3.2.0",
-    "eslint-plugin-import": "^2.25.3",
-    "eslint-plugin-unicorn": "^39.0.0"
+    "eslint-plugin-jest": "^25.3.0"
   },
   "devDependencies": {
-    "@types/eslint": "^8.2.1",
     "eslint": "^8.4.1",
+    "jest": "^27.4.3",
     "np": "^7.6.0"
   },
   "peerDependencies": {
-    "eslint": ">= 8"
+    "eslint": ">=8",
+    "jest": ">=27"
   }
 }

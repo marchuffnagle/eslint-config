@@ -4,9 +4,7 @@
   "description": "eslint config for a TypeScript-based Node.js project",
   "keywords": [
     "eslint",
-    "eslintconfig",
-    "node",
-    "typescript"
+    "eslintconfig"
   ],
   "author": "Marc Huffnagle <marc@huffnagle.net>",
   "homepage": "https://github.com/marchuffnagle/eslint-config/tree/main/packages/eslint-config-node-ts#readme",
@@ -25,9 +23,20 @@
   "bugs": {
     "url": "https://github.com/marchuffnagle/eslint-config/issues"
   },
+  "scripts": {
+    "release": "np"
+  },
   "dependencies": {
     "@mhuffnagle/eslint-config-node": "^1.0.0",
-    "@typescript-eslint/eslint-plugin": "^5.5.0",
-    "@typescript-eslint/parser": "^5.5.0"
+    "@typescript-eslint/eslint-plugin": "^5.6.0",
+    "@typescript-eslint/parser": "^5.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.4.1",
+    "np": "^7.6.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=8",
+    "typescript": ">=3"
   }
 }

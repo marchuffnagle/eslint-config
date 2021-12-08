@@ -1,0 +1,15 @@
+{
+  "name": "test-eslint-config",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": ">=14"
+  },
+  "scripts": {
+    "test": "eslint ."
+  },
+  "devDependencies": {
+    "@mhuffnagle/eslint-config": "1.0.0",
+    "eslint": "^8.4.1"
+  }
+}

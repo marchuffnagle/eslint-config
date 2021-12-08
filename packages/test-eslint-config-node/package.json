@@ -1,0 +1,12 @@
+{
+  "name": "test-eslint-config-node",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "eslint index.js"
+  },
+  "devDependencies": {
+    "@mhuffnagle/eslint-config-node": "1.0.0",
+    "eslint": "^8.4.1"
+  }
+}
