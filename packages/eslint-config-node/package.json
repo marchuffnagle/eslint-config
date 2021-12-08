@@ -23,9 +23,6 @@
   "bugs": {
     "url": "https://github.com/marchuffnagle/eslint-config/issues"
   },
-  "scripts": {
-    "release": "np --no-release-draft"
-  },
   "dependencies": {
     "@mhuffnagle/eslint-config": "^1.0.0",
     "eslint-plugin-node": "^11.1.0"
